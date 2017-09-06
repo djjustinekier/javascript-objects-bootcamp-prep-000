@@ -10,9 +10,9 @@ function updatePlaylist(obj, artistName, songTitle) {
 }
 
 function removeFromPlaylist(obj, art) {
-  return obj;
-  return delete obj.art;
+  obj;
+  delete obj.art;
   return Obj;
 }
 
-console.log(removeFromPlaylist(playlist, Paramore))
+console.log(removeFromPlaylist(playlist, 'Paramore'))
