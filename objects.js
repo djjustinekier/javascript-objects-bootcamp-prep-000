@@ -13,3 +13,5 @@ function removeFromPlaylist(obj, art) {
   delete obj.art;
   return obj;
 }
+
+console.log(removeFromPlaylist(playlist, 'Paramore'))
