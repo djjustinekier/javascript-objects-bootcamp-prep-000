@@ -1,4 +1,4 @@
-var playlist = { 
+var playlist = {
   Paramore : 'After Laughter',
   Avicii : 'Wake me UP',
   Kungs : 'This Girl'
