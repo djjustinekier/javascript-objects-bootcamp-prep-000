@@ -11,6 +11,6 @@ function updatePlaylist(obj, artistName, songTitle) {
 
 function removeFromPlaylist(obj, art) {
   delete obj.art
-  return new obj;
+  return newobj;
 }
 console.log(removeFromPlaylist(playlist, 'Paramore'))
