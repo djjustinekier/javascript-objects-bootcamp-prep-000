@@ -1,4 +1,4 @@
-var playlist = {
+var playList = {
   Paramore : 'After Laughter',
   Avicii : 'Wake me UP',
   Kungs : 'This Girl'
@@ -9,7 +9,7 @@ function updatePlaylist(obj, artistName, songTitle) {
   return obj;
 }
 
-function removeFromPlaylist(obj, artistName) {
+function removeFromPlaylist(playlist, artistName) {
   delete obj.artistName;
   return obj;
 }
