@@ -3,7 +3,7 @@ var playlist = {
   Avicii : 'Wake me UP',
   Kungs : 'This Girl'
 }
-
+delete playlist.[]'Paramore']
 function updatePlaylist(obj, artistName, songTitle) {
   Object.assign(obj, {[artistName] : songTitle});
   return obj;
@@ -11,7 +11,7 @@ function updatePlaylist(obj, artistName, songTitle) {
 
 function removeFromPlaylist(obj, art) {
   return obj;
-  delete obj.art;
+  return delete obj.art;
   return Obj;
 }
 
